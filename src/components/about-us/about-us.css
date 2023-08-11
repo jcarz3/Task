@@ -1,0 +1,13 @@
+.about-body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+}
+
+#dark .about-body {
+  background-color: black;
+}
+
+#dark .right-about h1 {
+  color: rgb(234, 222, 222);
+}

@@ -1,0 +1,34 @@
+.contact-body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+}
+
+#dark .contact-body {
+  background-color: black;
+}
+
+#dark .contact-body h1 {
+  color: rgb(234, 222, 222);
+}
+
+#dark .contact-body label {
+  color: rgb(232, 228, 228);
+}
+
+.contact-body button {
+  background-color: orange;
+}
+#dark .contact-body button {
+  color: white;
+  background-color: rgb(222, 163, 55);
+}
+
+.right_contact-form {
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+#dark input {
+  background-color: rgb(163, 161, 161);
+}
